@@ -65,10 +65,10 @@ class ShoppingReceipt{
 	    System.out.println("网球拍 "+"\t"+this.tennisRacket+"\t"+this.tennisRacketNum+"\t"+this.tennisRacket*this.tennisRacketNum);
 	    System.out.println();
 		System.out.println("折扣： " + "\t" + "8折");
-		System.out.println("消费总金额" +"\t"+ "$"+((this.shirt*this.shirtNum+this.sandShores*this.sandShoresNum+this.tennisRacket*this.tennisRacketNum)*0.8));
+		System.out.println("消费总金额" +"\t"+ "￥"+((this.shirt*this.shirtNum+this.sandShores*this.sandShoresNum+this.tennisRacket*this.tennisRacketNum)*0.8));
 		
-		System.out.println("实际交费"+"\t"+"$"+pay);
-		System.out.println("找钱 "+" \t "+"$"+(pay-((this.shirt*this.shirtNum+this.sandShores*this.sandShoresNum+this.tennisRacket*this.tennisRacketNum)*0.8)));
+		System.out.println("实际交费"+"\t"+"￥"+pay);
+		System.out.println("找钱 "+" \t "+"￥"+(pay-((this.shirt*this.shirtNum+this.sandShores*this.sandShoresNum+this.tennisRacket*this.tennisRacketNum)*0.8)));
 		
 		
 	}

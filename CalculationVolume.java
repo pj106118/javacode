@@ -1,11 +1,16 @@
+import java.util.Scanner;
 
 public class CalculationVolume{
 	
 	public static void main(String[] args){
 		
-		double radius = 5.5;
+		Scanner input = new Scanner(System.in);
 		
-		double length = 12;
+		System.out.println("请输入两个数：");
+		
+		double radius = input.nextInt();
+		
+		double length = input.nextInt();
 		
 		double num = 3.1415926;
 		
