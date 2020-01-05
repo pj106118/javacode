@@ -1,0 +1,15 @@
+CREATE TABLE tb_AddressBook
+(NAME CHAR(10) NOT NULL,
+SEX CHAR(2),
+PHONE CHAR(20),
+WORKPHONE CHAR(10),
+EMAIL CHAR(25),
+QQ CHAR(15),
+);
+
+
+
+
+
+INSERT INTO dbo.tb_AddressBook
+VALUES('Ð¡¶¬','ÄÐ','13555555','555585','8801.com','5522235');

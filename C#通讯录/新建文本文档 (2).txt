@@ -1,0 +1,13 @@
+   string _sql = "select NAME as '姓名',SEX as '性别',PHONE as '电话',WORKPHONE as '工作电话',EMAIL as '电子邮件',QQ as 'QQ'";
+            SqlConnection conn = new SqlConnection(connStr);
+            SqlDataAdapter sda = new SqlDataAdapter(_sql, conn);
+            DataSet ds = new DataSet();
+            sda.Fill(ds);
+            dataGridView1.DataSource = ds.Tables[0].DefaultView;
+            comboBox1.SelectedIndex = 0;
+
+
+
+//保存查询字符串
+        private string sql = "";
+        private string connStr = @"Data Source=DESKTOP-LK27AO7;Initial Catalog = TXL; Integrated Security = True";
