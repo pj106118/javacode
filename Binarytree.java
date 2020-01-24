@@ -15,6 +15,7 @@ public class BinarytreeTest {
             return String.format("{%c}",val);
         }
     }
+	
 	//建立二叉树
     public static Node buildTree() {
         Node a = new Node('A');
@@ -32,6 +33,7 @@ public class BinarytreeTest {
 
         return a;
     }
+	
     //前序遍历
     public static void preOrderTraversal(Node root){
         if(root==null){
@@ -42,7 +44,8 @@ public class BinarytreeTest {
         preOrderTraversal(root.right);
 
     }
-    //中序遍历
+	
+    //中序
     public static void inOrderTraversal(Node root){
         if(root==null){
             return;
@@ -51,7 +54,8 @@ public class BinarytreeTest {
         System.out.println(root);
         inOrderTraversal(root.right);
     }
-    //后序遍历
+    
+	//后序
     public static void postOrderTraversal(Node root){
         if(root==null){
             return;
