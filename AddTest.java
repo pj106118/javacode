@@ -1,9 +1,7 @@
 package jing.able;
 
 /**
- * @author : panjing
- * @data : 2019/7/3 9:53
- * @describe :  数字之和
+  数字之和
  */
 import java.util.Scanner;
 
