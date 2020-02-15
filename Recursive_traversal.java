@@ -3,9 +3,7 @@ package jing.able.Java.OJ;
 import java.util.Stack;
 
 /**
- * @author : panjing
- * @data : 2019/9/22 9:20
- * @describe :  非递归遍历二叉树
+  非递归遍历二叉树
  */
 public class Recursive_traversal {
 
